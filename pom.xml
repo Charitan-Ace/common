@@ -11,7 +11,7 @@
 
     <groupId>ace.charitan</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
