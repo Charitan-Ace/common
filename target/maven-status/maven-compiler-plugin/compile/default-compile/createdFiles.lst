@@ -1,0 +1,4 @@
+ace/charitan/common/dto/country/GetCountryByIsoCode.class
+ace/charitan/common/dto/country/GetCountryByIsoCode$GetCountryByIsoCodeRequestDto.class
+ace/charitan/common/dto/country/GetCountryByIsoCode$GetCountryByIsoCodeResponseDto.class
+ace/charitan/common/dto/TestKafkaMessageDto.class

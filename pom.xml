@@ -11,7 +11,7 @@
 
     <groupId>ace.charitan</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
@@ -28,5 +28,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Charitan-Ace/common</url>
+        </repository>
+    </distributionManagement>
 
 </project>
