@@ -29,4 +29,11 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Charitan-Ace/common</url>
+        </repository>
+    </distributionManagement>
+
 </project>
