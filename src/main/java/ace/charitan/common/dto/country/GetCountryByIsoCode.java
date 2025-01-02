@@ -6,27 +6,25 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 public class GetCountryByIsoCode {
-    @Getter
-    @Setter
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class GetCountryByIsoCodeRequestDto {
+  @Getter
+  @Setter
+  @NoArgsConstructor
+  @AllArgsConstructor
+  public static class GetCountryByIsoCodeRequestDto {
 
-        private String isoCode;
+    private String isoCode;
+  }
 
-    }
+  @Getter
+  @Setter
+  @NoArgsConstructor
+  @AllArgsConstructor
+  public class GetCountryByIsoCodeResponseDto {
 
-    @Getter
-    @Setter
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public class GetCountryByIsoCodeResponseDto {
+    private Long id;
 
-        private Long id;
+    private String isoCode;
 
-        private String isoCode;
-
-        private String regionName;
-    }
-
+    private String regionName;
+  }
 }

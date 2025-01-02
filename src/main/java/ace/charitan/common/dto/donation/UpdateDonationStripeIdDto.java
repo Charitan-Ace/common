@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdateDonationStripeIdDto {
-    private Long id;
-    private String transactionStripeId;
+  private Long id;
+  private String transactionStripeId;
 }
