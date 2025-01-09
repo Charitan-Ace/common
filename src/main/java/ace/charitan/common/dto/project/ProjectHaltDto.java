@@ -1,12 +1,3 @@
 package ace.charitan.common.dto.project;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class ProjectHaltDto {
-  private String id;
-}
+public record ProjectHaltDto(String id, String reasonCharity, String reasonDonor) {}
