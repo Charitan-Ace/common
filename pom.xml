@@ -9,7 +9,7 @@
 
   <groupId>ace.charitan</groupId>
   <artifactId>common</artifactId>
-  <version>0.0.15-SNAPSHOT</version>
+  <version>0.0.16-SNAPSHOT</version>
 
   <distributionManagement>
     <repository>
