@@ -13,6 +13,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ExternalProjectDto {
 
+    private String id;
+
     private String title;
 
     private String description;
