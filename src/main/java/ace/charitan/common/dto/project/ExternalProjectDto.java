@@ -25,9 +25,9 @@ public class ExternalProjectDto {
 
     private ZonedDateTime endTime;
 
-    private StatusType statusType;
+    private String statusType;
 
-    private CategoryType categoryType;
+    private String categoryType;
 
     private String countryIsoCode;
 
