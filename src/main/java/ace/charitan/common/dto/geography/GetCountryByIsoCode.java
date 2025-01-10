@@ -1,4 +1,6 @@
-package ace.charitan.common.dto.country;
+package ace.charitan.common.dto.geography;
+
+import java.io.Serializable;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +12,7 @@ public class GetCountryByIsoCode {
   @Setter
   @NoArgsConstructor
   @AllArgsConstructor
-  public static class GetCountryByIsoCodeRequestDto {
+  public static class GetCountryByIsoCodeRequestDto implements Serializable {
 
     private String isoCode;
   }
@@ -19,9 +21,7 @@ public class GetCountryByIsoCode {
   @Setter
   @NoArgsConstructor
   @AllArgsConstructor
-  public class GetCountryByIsoCodeResponseDto {
-
-    private Long id;
+  public static class GetCountryByIsoCodeResponseDto implements Serializable {
 
     private String isoCode;
 
