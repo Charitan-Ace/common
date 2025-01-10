@@ -1,9 +1,8 @@
 package ace.charitan.common.dto.project;
 
+import java.io.Serializable;
 import java.time.ZonedDateTime;
 
-import ace.charitan.common.dto.project.ProjectEnum.CategoryType;
-import ace.charitan.common.dto.project.ProjectEnum.StatusType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ExternalProjectDto {
+public class ExternalProjectDto implements Serializable {
 
     private String id;
 
