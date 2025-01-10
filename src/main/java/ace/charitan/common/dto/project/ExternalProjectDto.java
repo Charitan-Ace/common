@@ -4,10 +4,11 @@ import java.io.Serializable;
 import java.time.ZonedDateTime;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExternalProjectDto implements Serializable {
