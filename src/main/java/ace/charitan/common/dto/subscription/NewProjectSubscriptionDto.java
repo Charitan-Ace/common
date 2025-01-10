@@ -8,12 +8,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-public class NewProjectSubscriptionDto implements Serializable {
+public class NewProjectSubscriptionDto  {
 
     @Getter
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class NewProjectSubscriptionRequestDto {
+    public static class NewProjectSubscriptionRequestDto  implements Serializable {
 
         private ExternalProjectDto project;
 
