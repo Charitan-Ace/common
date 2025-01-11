@@ -2,5 +2,5 @@ package ace.charitan.common.dto.statistics.charity;
 
 import java.util.UUID;
 
-public record GetCharitiesStatisticsRequestDto(CharityIdList charityIdList) {
+public record GetCharitiesStatisticsRequestDto(UUID charityId) {
 }
