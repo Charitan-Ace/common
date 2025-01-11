@@ -2,7 +2,6 @@ package ace.charitan.common.dto.project;
 
 import java.io.Serializable;
 import java.time.ZonedDateTime;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

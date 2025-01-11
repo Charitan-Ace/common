@@ -6,13 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class SendDonationNotificationDto {
-  private Long donationId;
+@AllArgsConstructor
+public class DonationDto {
+  private Long id;
   private Double amount;
   private String message;
-  private String projectName;
-  private String donorName;
+  private String transactionStripeId;
+  private String projectId;
+  private String donorId;
   private LocalDate createdAt;
 }
