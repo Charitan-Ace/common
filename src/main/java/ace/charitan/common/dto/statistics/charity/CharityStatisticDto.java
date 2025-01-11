@@ -5,5 +5,5 @@ import ace.charitan.common.dto.donation.DonationsDto;
 import java.util.List;
 import java.util.UUID;
 
-public record CharityStatisticDto(List<DonationsDto> donations) {
+public record CharityStatisticDto(DonationsDto donations) {
 }
