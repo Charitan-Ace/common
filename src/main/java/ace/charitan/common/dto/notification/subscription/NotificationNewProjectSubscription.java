@@ -1,8 +1,9 @@
 package ace.charitan.common.dto.notification.subscription;
 
-import ace.charitan.common.dto.project.ExternalProjectDto;
 import java.io.Serializable;
 import java.util.List;
+
+import ace.charitan.common.dto.project.ExternalProjectDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,5 +17,6 @@ public class NotificationNewProjectSubscription {
     private List<String> donorIdList;
 
     private ExternalProjectDto project;
+
   }
 }

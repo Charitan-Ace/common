@@ -1,6 +1,7 @@
 package ace.charitan.common.dto.geography;
 
 import java.io.Serializable;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
