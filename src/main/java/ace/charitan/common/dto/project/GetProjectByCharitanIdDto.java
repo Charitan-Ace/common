@@ -15,6 +15,10 @@ public class GetProjectByCharitanIdDto {
     public static class GetProjectByCharitanIdRequestDto implements Serializable {
 
         private String charitanId;
+
+        // If want to query deleted project => add PROJECT_DELETED
+        // If want to query completed project => add PROJECT_COMPLETED
+        private List<String> shardList;
     }
 
     @Getter
