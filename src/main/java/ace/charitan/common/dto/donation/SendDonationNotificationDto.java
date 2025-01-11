@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class SendDonationNotificationDto {
   private Long donationId;
-  private Float amount;
+  private Double amount;
   private String message;
   private String projectName;
   private String donorName;
