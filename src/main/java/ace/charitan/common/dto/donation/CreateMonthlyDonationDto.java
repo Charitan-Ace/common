@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateMonthlyDonationDto {
-    private Float amount;
+    private Double amount;
     private String message;
     private String transactionStripeId;
     private String projectId;
