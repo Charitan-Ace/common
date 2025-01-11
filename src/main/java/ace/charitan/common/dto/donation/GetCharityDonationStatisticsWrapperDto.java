@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class GetCharityDonationStatisticsRequestDto {
-    private GetCharityDonationStatisticsWrapperDto dto;
+@AllArgsConstructor
+
+public class GetCharityDonationStatisticsWrapperDto {
+    private List<String> projectIds;
 }
