@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GetDonationByIdDto {
-    private Long id;
+  private Long id;
 }

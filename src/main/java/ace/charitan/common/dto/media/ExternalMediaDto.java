@@ -8,16 +8,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExternalMediaDto {
-    private String mediaUrl;
+  private String mediaUrl;
 
-    private String publicId;
+  private String publicId;
 
-    private String mediaType;
+  private String mediaType;
 
-    private String mediaFormat;
+  private String mediaFormat;
 
-    private String resourceType;
+  private String resourceType;
 
-    private String projectId;
-
+  private String projectId;
 }
