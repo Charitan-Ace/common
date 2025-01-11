@@ -9,6 +9,6 @@ import java.util.Map;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetDonorDonationStatisticsResponseDto {
+public class GetDonationStatisticsResponseDto {
     private Map<String, Double> donorStatistics;
 }
