@@ -11,7 +11,7 @@
 
   <groupId>ace.charitan</groupId>
   <artifactId>common</artifactId>
-  <version>0.0.70-SNAPSHOT</version>
+  <version>0.0.71-SNAPSHOT</version>
 
   <distributionManagement>
     <repository>
