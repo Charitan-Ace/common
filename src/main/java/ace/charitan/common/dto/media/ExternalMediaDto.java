@@ -18,5 +18,7 @@ public class ExternalMediaDto {
 
   private String resourceType;
 
+  private Boolean isThumbnail;
+
   private String projectId;
 }
