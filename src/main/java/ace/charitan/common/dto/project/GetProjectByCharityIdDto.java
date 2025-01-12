@@ -7,14 +7,14 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-public class GetProjectByCharitanIdDto {
+public class GetProjectByCharityIdDto {
 
     @Getter
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class GetProjectByCharitanIdRequestDto implements Serializable {
+    public static class GetProjectByCharityIdRequestDto implements Serializable {
 
-        private String charitanId;
+        private String charityId;
 
         // If want to query deleted project => add PROJECT_DELETED
         // If want to query completed project => add PROJECT_COMPLETED
@@ -24,7 +24,7 @@ public class GetProjectByCharitanIdDto {
     @Getter
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class GetProjectByCharitanIdResponseDto implements Serializable {
+    public static class GetProjectByCharityIdResponseDto implements Serializable {
         private List<ExternalProjectDto> projectDtoList;
     }
 
