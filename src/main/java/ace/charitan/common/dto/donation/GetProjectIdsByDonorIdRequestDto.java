@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetProjectIdsByDonorIdDto {
+public class GetProjectIdsByDonorIdRequestDto {
     private String donorId;
 }
