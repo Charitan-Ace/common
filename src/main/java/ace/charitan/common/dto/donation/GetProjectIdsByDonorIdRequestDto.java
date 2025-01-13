@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GetProjectIdsByDonorIdRequestDto {
-    private String donorId;
+  private String donorId;
 }

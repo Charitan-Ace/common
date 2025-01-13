@@ -1,4 +1,4 @@
-package ace.charitan.common.dto.donation;
+package ace.charitan.common.dto.payment;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetDonorDonationStatisticsRequestDto {
-  private String donorId;
+public class CreateDonationPaymentRedirectUrlResponseDto {
+  private String redirectUrl;
 }

@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GetProjectIdsByDonorIdResponseDto {
-    private GetProjectIdsByDonorIdWrapperDto wrapper;
+  private GetProjectIdsByDonorIdWrapperDto wrapper;
 }
