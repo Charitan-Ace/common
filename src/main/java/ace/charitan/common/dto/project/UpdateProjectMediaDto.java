@@ -6,14 +6,15 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class UpdateProjectMediaDto {
+public class UpdateProjectMediaDto  {
 
     @Getter
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class UpdateProjectMediaRequestDto {
+    public static class UpdateProjectMediaRequestDto implements  Serializable {
 
         private String projectId;
 
