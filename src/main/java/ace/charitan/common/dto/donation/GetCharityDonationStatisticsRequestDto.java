@@ -8,5 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GetCharityDonationStatisticsRequestDto {
-  private GetCharityDonationStatisticsWrapperDto dto;
+    private String time;
+    private GetCharityDonationStatisticsWrapperDto dto;
 }
