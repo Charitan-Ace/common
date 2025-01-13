@@ -9,15 +9,13 @@ import lombok.NoArgsConstructor;
 
 public class EmailNewProjectSubscription {
 
-    @Getter
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class EmailNewProjectSubscriptionRequestDto implements Serializable {
+  @Getter
+  @NoArgsConstructor
+  @AllArgsConstructor
+  public static class EmailNewProjectSubscriptionRequestDto implements Serializable {
 
-        private List<String> donorIdList;
+    private List<String> donorIdList;
 
-        private ExternalProjectDto project;
-
-    }
-
+    private ExternalProjectDto project;
+  }
 }

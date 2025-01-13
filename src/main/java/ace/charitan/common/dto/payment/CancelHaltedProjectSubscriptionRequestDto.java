@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CancelHaltedProjectSubscriptionRequestDto {
-    private String projectId;
+  private String projectId;
 }

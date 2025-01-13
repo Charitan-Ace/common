@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateDonationPaymentRedirectUrlResponseDto {
-    private String redirectUrl;
+  private String redirectUrl;
 }

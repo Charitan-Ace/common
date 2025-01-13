@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateDonationPaymentRedirectUrlRequestDto {
-    private String userId;
-    private Long donationId;
-    private Double amount;
-    private String successUrl;
-    private String cancelUrl;
+  private String userId;
+  private Long donationId;
+  private Double amount;
+  private String successUrl;
+  private String cancelUrl;
 }
